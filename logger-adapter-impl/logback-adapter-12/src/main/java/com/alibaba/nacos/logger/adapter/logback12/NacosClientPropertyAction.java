@@ -56,7 +56,7 @@ class NacosClientPropertyAction extends Action {
     
     @Override
     public void end(InterpretationContext ic, String name) throws ActionException {
-    
+        System.out.println("test：1212：:1111111111111111");
     }
     
     private String getValue(String source, String defaultValue) {

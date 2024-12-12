@@ -52,6 +52,7 @@ public class LogbackNacosLoggingAdapter implements NacosLoggingAdapter {
         if (null == expectedLoggerClass || !expectedLoggerClass.isAssignableFrom(loggerClass)) {
             return false;
         }
+        System.out.println("test：1212：:0000000000000000000000");
         return !isUpperLogback13();
     }
     
